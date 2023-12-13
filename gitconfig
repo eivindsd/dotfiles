@@ -1,0 +1,5 @@
+[user]
+	email = eivind.dovland@gmail.com
+	name = Eivind Syrdalen Dovland
+[push]
+	autoSetupRemote = true
