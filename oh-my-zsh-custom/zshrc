@@ -8,3 +8,7 @@ plugins=(git macos)
 
 source $ZSH/oh-my-zsh.sh
 
+
+eval $(thefuck --alias fuck)
+
+eval "$(starship init zsh)"
