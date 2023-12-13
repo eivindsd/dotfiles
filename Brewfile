@@ -1,6 +1,9 @@
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/services"
+tap "homebrew/cask-fonts"
+
+#brew
 brew "colima"
 brew "docker"
 brew "docker-compose"
@@ -16,13 +19,18 @@ brew "mongodb-atlas-cli"
 brew "node@18"
 brew "pnpm"
 brew "telnet"
+brew "thefuck"
 brew "heroku/brew/heroku"
+
+#cask
 cask "1password"
 cask "alt-tab"
 cask "brave-browser"
 cask "discord"
 cask "docker"
 cask "dotnet-sdk"
+cask "font-monaspace"
+cask "font-symbols-only-nerd-font"
 cask "google-cloud-sdk"
 cask "kitty"
 cask "microsoft-auto-update"
