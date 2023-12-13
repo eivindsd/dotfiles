@@ -1,1 +1,3 @@
-# dotfiles
+# Dotfiles
+
+Dette er mine dotfiles :)
