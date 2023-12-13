@@ -1,3 +1,3 @@
 # Dotfiles
 
-Dette er mine dotfiles :)
+Dette er mine dotfiles :))
