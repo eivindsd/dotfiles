@@ -1,5 +1,15 @@
 [user]
 	email = eivind.dovland@gmail.com
 	name = Eivind Syrdalen Dovland
+
+[init]
+	defaultBranch = main
+
 [push]
 	autoSetupRemote = true
+
+[alias]
+	co = checkout
+	st = status
+	ci = commit
+	rb = rebase
