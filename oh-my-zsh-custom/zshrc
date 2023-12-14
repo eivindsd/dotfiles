@@ -8,6 +8,20 @@ plugins=(git macos)
 
 source $ZSH/oh-my-zsh.sh
 
+#aliases
+
+# cd
+alias ..="cd .."
+alias cd..="cd .."
+
+#ls
+alias ls="ls -FGh"
+alias a="ls -a"
+alias ll="ls -lh"
+alias la='ls -lah'
+
+alias dot="cd ~/dotfiles"
+alias reload="omz reload"
 
 eval $(thefuck --alias fuck)
 
