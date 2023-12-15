@@ -1,3 +1,6 @@
+#"brew bundle install" after update
+#"brew bundle cleanup --force" after delete
+
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/services"
@@ -18,6 +21,7 @@ brew "mongosh"
 brew "mongodb-atlas-cli"
 brew "node@18"
 brew "pnpm"
+brew "starship"
 brew "telnet"
 brew "thefuck"
 brew "heroku/brew/heroku"
@@ -25,7 +29,6 @@ brew "heroku/brew/heroku"
 #cask
 cask "1password"
 cask "alt-tab"
-cask "brave-browser"
 cask "discord"
 cask "docker"
 cask "dotnet-sdk"

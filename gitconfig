@@ -10,6 +10,7 @@
 
 [alias]
 	co = checkout
+	cob = checkout -b
 	st = status
 	ci = commit
 	rb = rebase
