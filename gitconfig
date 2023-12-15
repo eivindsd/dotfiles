@@ -14,3 +14,4 @@
 	ci = commit
 	rb = rebase
 	all = add .
+	ac = !git add . && git commit -m
