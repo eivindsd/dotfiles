@@ -23,6 +23,9 @@ alias la='ls -lah'
 alias dot="cd ~/dotfiles"
 alias reload="omz reload"
 
+
 eval $(thefuck --alias fuck)
 
 eval "$(starship init zsh)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
