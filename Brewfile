@@ -29,6 +29,7 @@ brew "heroku/brew/heroku"
 #cask
 cask "1password"
 cask "alt-tab"
+cask "arc"
 cask "discord"
 cask "docker"
 cask "dotnet-sdk"
