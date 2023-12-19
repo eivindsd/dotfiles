@@ -1,5 +1,5 @@
 # kitty symlink
-rm -rf ~/.config/kitty
+rm ~/.config/kitty
 ln -s ~/dotfiles/kitty ~/.config/kitty
 
 #gitconfig symlink
@@ -11,5 +11,5 @@ rm ~/.zshrc
 ln -s ~/dotfiles/oh-my-zsh-custom/zshrc ~/.zshrc
 
 #starship symlink
-rm -rf ~/.config/starship.toml
+rm ~/.config/starship.toml
 ln -s ~/dotfiles/starship.toml ~/.config/starship.toml
