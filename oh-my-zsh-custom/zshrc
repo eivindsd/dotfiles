@@ -22,7 +22,7 @@ alias la='ls -lah'
 
 alias dot="cd ~/dotfiles"
 alias reload="omz reload"
-
+alias lazy="lazygit"
 
 eval $(thefuck --alias fuck)
 
