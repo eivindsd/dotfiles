@@ -14,9 +14,11 @@
 [alias]
 	co = checkout
 	cob = checkout -b
+	br = branch
 	st = status
 	ci = commit
 	rb = rebase
 	a = add .
 	c = commit -m
 	ac = !git add . && git commit -m
+	deletebranches = git branch | grep -v "main" | xargs git branch -d
