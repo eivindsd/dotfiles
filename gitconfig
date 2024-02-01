@@ -17,5 +17,6 @@
 	st = status
 	ci = commit
 	rb = rebase
-	all = add .
+	a = add .
+	c = commit -m
 	ac = !git add . && git commit -m
