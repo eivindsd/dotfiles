@@ -23,6 +23,7 @@ alias la='ls -lah'
 alias dot="cd ~/dotfiles"
 alias reload="omz reload"
 alias lazy="lazygit"
+alias sync-clock='sudo sntp -Ss time.apple.com'
 
 eval $(thefuck --alias fuck)
 
